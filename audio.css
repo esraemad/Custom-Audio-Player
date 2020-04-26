@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fff;
+    background-image: url(bg.png);
+}
+.clearfix
+{
+    clear: both;
+}
+#container
+{
+    width: 330px;
+    background-color: #333;
+    margin: 60px auto;
+    border: #999 2px solid;
+    height: 500px;
+}
+
+#audio-img
+{
+    position: relative;
+    overflow: hidden;
+    height: 132px;
+    margin-bottom: 15px;
+    width: 38%;
+    margin: auto;
+    margin-top: 9px;
+
+}
+.cover
+{
+    width: 100%;
+    z-index: 1;
+}
+#audio-info
+{
+    text-align: center;
+}
+#audio-info .artist
+{
+ font-weight: bold;
+}
+#volume
+{
+    width: 95%;
+    margin: auto;
+    margin-left: 2%;
+    margin-bottom: 6px;
+    margin-top: 21px;
+}
+#audio-btns
+{
+  text-align: center;
+}
+#prev,#next
+{
+    font-size: 40px;
+}
+button
+{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #eee;
+    padding: 10px;
+    cursor: pointer;
+}
+#playlist
+{
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+#playlist li 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+
+#playlist li:hover
+{
+    font-weight: bold;
+    background-color: #666;
+    padding: 3px;
+}
+
+#tracker
+{
+    position: relative;
+} 
+#progresbar
+{
+    width: 65%;
+    margin-left: 10%;
+    margin-bottom: 17px;
+    margin-top: 15px;
+    height: 4px;
+    background-color: #eee;
+    display: flex;
+}
+#fill
+{
+    height: 4px;
+    width: 10px;
+    border-radius: 1px;
+    background-color: royalblue;
+}
+#handel
+{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: royalblue;
+    transform: scale(1.5);
+    margin-left: 0px;
+    margin-top: -3px;
+}
+
+#durationtime
+{
+    position: absolute;
+    top: -12px;
+    right: 27px;
+    padding: 4px 8px;
+}
